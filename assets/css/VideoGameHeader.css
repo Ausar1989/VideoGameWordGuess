@@ -59,10 +59,21 @@ body {
     margin-left: 100px;
     font-family: "Mr Dafoe", cursive;
     font-size: 100px;
-    color: #f975f7;
-    filter: drop-shadow(2px 2px 20px #f008b7);
-    transform: rotate(-15deg);
-    -webkit-text-stroke: 1px #f008b7;
+    color: #390cdd;
+    filter: drop-shadow(2px 2px 20px blue);
+    transform: rotate(0deg);
+    -webkit-text-stroke: 1px whitesmoke;
+    animation: move 6s linear infinite;
+  }
+
+  @keyframes move {
+    0%{
+      transform: translate(0px);
+    }
+
+    50% {
+      transform: translate(300px);
+    }
   }
   
   .windows .multiplatform {
