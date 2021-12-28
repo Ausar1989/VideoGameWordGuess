@@ -1,3 +1,0 @@
-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
-
-make sure there is no whitespace in the personal access token
